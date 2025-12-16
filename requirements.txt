@@ -1,0 +1,3 @@
+# UAM Research Project Dependencies
+# No additional packages required - uses Python standard library only
+
