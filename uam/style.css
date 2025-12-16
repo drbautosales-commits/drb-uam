@@ -1,0 +1,170 @@
+/* UAM Knowledge Base - Minimal CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  background-color: #fafafa;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #34495e;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+/* Typography */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+}
+
+h2 {
+  color: #34495e;
+  margin: 25px 0 15px 0;
+}
+
+h3 {
+  color: #7f8c8d;
+  margin: 20px 0 10px 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin: 15px 0 15px 30px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Category Grid (Home Page) */
+.category-list {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.category-list li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-left: 4px solid #3498db;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+.category-list li:hover {
+  background: #f8f9fa;
+}
+
+.category-list a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #34495e;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Sections */
+.summary, .notes {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.summary {
+  border-left: 4px solid #27ae60;
+}
+
+.notes {
+  border-left: 4px solid #f39c12;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  color: #7f8c8d;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+
+
+
